@@ -1,0 +1,251 @@
+
+
+
+.logo-small {
+  display: none;
+}
+
+tr{
+  height: 4em !important;
+   
+}
+
+
+thead{
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25); 
+
+
+
+}
+
+table { 
+  width: 100%;
+  table-layout: fixed;
+    font-family: Poppins, Helvetica, sans-serif;
+    display:table-cell;
+	 margin: 0; 
+   padding: 0;
+  border-collapse: collapse;
+  
+
+  }
+  /* Zebra striping */
+  tr:nth-of-type(even) { 
+    background: #e0eadc;
+}
+
+thead{
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25); 
+
+}
+
+ thead img {
+ max-width: 100%;
+  }
+
+
+  td:first-child { 
+    background: transparent; 
+    color: rgb(0, 0, 0); 
+    font-weight: normal;
+
+  } 
+  td:first-child { 
+    text-align:right;
+  }
+  td { 
+     
+    text-align: center; 
+
+  }
+  td:first-child {
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+
+  
+  table {
+    border-collapse: collapse;
+  }
+  .body td {
+    border-left: 3px solid rgba(88,153,67,0.20); 
+  }
+  .body tr:first-child td {
+    border-top: 0;
+  }
+  .body tr td:first-child {
+    border-left: 0;
+  }
+  .body tr:last-child td {
+    border-bottom: 0;
+  }
+  .body tr td:last-child {
+    border-right: 0;
+  }
+
+
+
+
+@media (max-width: 575.98px) {
+  .table-responsive-sm {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-responsive-sm > .table-bordered {
+    border: 0;
+  }
+  table thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: white;
+  }
+  table tbody td:first-child {
+    position: sticky;
+    left: 0;
+    background: white;
+    z-index: 1;
+    border-right: 3px solid rgba(88,153,67,0.20);
+    
+  }
+  .logo-small {
+    display: block;
+    text-align: center;
+  }
+
+  .logo-full {
+    display: none;
+  }
+  
+  .body img{
+    width: 35%;
+    height: 35%;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  .table-responsive-md {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-responsive-md > .table-bordered {
+    border: 0;
+  }
+  table thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: white;
+  }
+  table tbody td:first-child {
+    position: sticky;
+    left: 0;
+    background: white;
+    z-index: 1;
+    border-right: 3px solid rgba(88,153,67,0.20);
+    
+  }
+  .logo-small {
+    display: block;
+    text-align: center;
+  }
+
+  .logo-full {
+    display: none;
+  }
+  .body img{
+    width: 35%;
+    height: 35%;
+  }
+  
+}
+
+@media (max-width: 991.98px) {
+  .table-responsive-lg {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-responsive-lg > .table-bordered {
+    border: 0;
+  }
+  table thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: white;
+  }
+  table tbody td:first-child {
+    position: sticky;
+    left: 0;
+    background: white;
+    z-index: 1;
+    border-right: 3px solid rgba(88,153,67,0.20);
+    
+  }
+  .logo-small {
+    display: block;
+    text-align: center;
+  }
+
+  .logo-full {
+    display: none;
+  }
+  .body img{
+    width: 35%;
+    height: 35%;
+  }
+  
+}
+
+@media (max-width: 1199.98px) {
+  .table-responsive-xl {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-responsive-xl > .table-bordered {
+    border: 0;
+  }
+  table thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: white;
+  }
+  table tbody td:first-child {
+    position: sticky;
+    left: 0;
+    background: white;
+    z-index: 1;
+    border-right: 3px solid rgba(88,153,67,0.20);
+    
+  }
+  .logo-small {
+    display: block;
+    text-align: center;
+  }
+
+  .logo-full {
+    display: none;
+  }
+  .body img{
+    width: 35%;
+    height: 35%;
+  }
+  
+
+}
+
+
+  
